@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 5px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 2.5px;
+}
+
+.num-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2px;
+}
